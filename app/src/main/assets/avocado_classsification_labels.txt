@@ -1,0 +1,3 @@
+0 Belum Matang
+1 Setengah Matang
+2 Matang

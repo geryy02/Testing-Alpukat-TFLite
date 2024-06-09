@@ -4,4 +4,8 @@
     <color name="white">#FFFFFFFF</color>
 
     <color name="green">#8BC34A</color>
+
+    <color name="belum_matang">#FF0000</color>
+    <color name="setengah_matang">#FFA500</color>
+    <color name="matang">#008000</color>
 </resources>

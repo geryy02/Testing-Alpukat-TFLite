@@ -8,10 +8,10 @@
             <InsightsFilterSettings>
               <option name="connection">
                 <ConnectionSetting>
-                  <option name="appId" value="PLACEHOLDER" />
-                  <option name="mobileSdkAppId" value="" />
-                  <option name="projectId" value="" />
-                  <option name="projectNumber" value="" />
+                  <option name="appId" value="com.dicoding.testingalpukat" />
+                  <option name="mobileSdkAppId" value="1:649321583769:android:0021d66bf7120da9485408" />
+                  <option name="projectId" value="testing-alpukat" />
+                  <option name="projectNumber" value="649321583769" />
                 </ConnectionSetting>
               </option>
               <option name="signal" value="SIGNAL_UNSPECIFIED" />

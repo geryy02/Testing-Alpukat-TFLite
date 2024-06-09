@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "649321583769",
+    "project_id": "testing-alpukat",
+    "storage_bucket": "testing-alpukat.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:649321583769:android:0021d66bf7120da9485408",
+        "android_client_info": {
+          "package_name": "com.dicoding.testingalpukat"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBtrgtdNc5sqU-TsKiJnYjJGH8C_jdfR7w"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

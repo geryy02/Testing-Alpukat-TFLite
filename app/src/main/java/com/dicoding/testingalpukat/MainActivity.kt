@@ -5,6 +5,8 @@ import android.net.Uri
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.util.Log
+import android.view.Menu
+import android.view.MenuItem
 import android.widget.Toast
 import androidx.activity.result.contract.ActivityResultContracts
 import com.dicoding.testingalpukat.databinding.ActivityMainBinding
@@ -128,13 +130,29 @@ class MainActivity : AppCompatActivity() {
         croppedImageUri = uri
     }
 
-    companion object {
-        const val TAG = "ImagePicker"
-        private const val REQUEST_RESULT = 1001
-    }
-
     override fun onDestroy() {
         super.onDestroy()
         _binding = null
+    }
+
+    //Menu
+    override fun onCreateOptionsMenu(menu: Menu?): Boolean {
+        menuInflater.inflate(R.menu.item_menu, menu)
+        return super.onCreateOptionsMenu(menu)
+    }
+
+    override fun onOptionsItemSelected(item: MenuItem): Boolean {
+        when (item.itemId) {
+            R.id.history -> {
+                val intent = Intent(this, HistoryActivity::class.java)
+                startActivity(intent)
+            }
+        }
+        return super.onOptionsItemSelected(item)
+    }
+
+    companion object {
+        const val TAG = "ImagePicker"
+        private const val REQUEST_RESULT = 1001
     }
 }

@@ -2,4 +2,5 @@
     <string name="app_name">Testing Alpukat</string>
 
     <string name="image_classifier_failed">Image classifier failed to initialize. See error logs for details</string>
+    <string name="rekomendasi">Temukan Rekomendasi</string>
 </resources>
